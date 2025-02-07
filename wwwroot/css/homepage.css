@@ -1,0 +1,71 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 40px;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Centering Text Content */
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Header */
+header {
+    background: linear-gradient(90deg, #ff416c, #ff4b2b);
+    color: white;
+    text-align: center;
+    padding: 30px 0;
+    font-size: 28px;
+    font-weight: bold;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Container for Main Content */
+.container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: left; /* Default left alignment for paragraphs */
+}
+
+/* Paragraph Style */
+p {
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: #444;
+}
+
+/* Centering Links */
+a {
+    display: block;
+    text-align: center;
+    margin: 20px auto;  /* Centers the link horizontally */
+    width: fit-content;  /* Makes the width adjust to the content size */
+}
+
+/* Images */
+img {
+    max-width: 80%;
+    height: auto;
+    display: block;
+    margin: 20px 0;
+    border-radius: 12px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .container {
+        padding: 15px;
+        margin: 20px auto; /* Reset margin for smaller screens */
+    }
+    header {
+        font-size: 24px;
+    }
+}
